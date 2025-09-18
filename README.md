@@ -223,7 +223,7 @@ Convertirnos en la plataforma líder a nivel global en análisis inteligente de 
     <td><img src="img/angel-profile.jpeg" alt="" width="500" height="130"></td>
     <td></td>
     <td></td>
-    <td>Mi nombre es Angel Anampa , tengo 20 años. Actualmente estoy cursando la carrera de Ingeniería de Software en la UPC. Elegí dicha carrera porque soy una persona que le interesa mucho los temas que tienen que ver con tecnología, me gustan los videojuegos. Me considero una persona atenta, responsable, optimista que sabe solucionar los problemas. Como integrante del equipo me comprometo a apoyar al grupo en este trabajo.</td>
+    <td>Mi nombre es  Andrea Milagros Cabanillas Gora , tengo 20 años. Actualmente estoy cursando la carrera de Ingeniería de Software en la UPC. Elegí dicha carrera porque soy una persona que le interesa mucho los temas que tienen que ver con tecnología, me gustan los videojuegos. Me considero una persona atenta, responsable, optimista que sabe solucionar los problemas. Como integrante del equipo me comprometo a apoyar al grupo en este trabajo.</td>
   </tr>
 
    <tr>
