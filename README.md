@@ -44,7 +44,7 @@ El objetivo de esta sección es resumir las modificaciones relevantes que se rea
 ## Project Report Collaboration Insights
 
 
-URL del repositorio para el reporte del proyecto:
+URL del repositorio para el reporte del proyecto: https://github.com/flowerpowerAA/dise-o-/blob/main/README.md
 
 
 
