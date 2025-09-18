@@ -200,15 +200,8 @@ Los integrantes son:
 
 ### **1.1.1 Descripción de la startup**
 
-DocMind es una startup de base tecnológica dedicada a transformar la manera en que las personas interactúan con documentos complejos mediante inteligencia artificial. Nuestro producto principal, DocMind AI, permite cargar archivos PDF de cualquier índole —papers académicos, contratos legales, reportes técnicos o manuales empresariales— y realizar preguntas directas en lenguaje natural, obteniendo respuestas inmediatas, resúmenes claros y referencias exactas al documento.
+Vitalia es una startup conformada por estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Juntos, somos un equipo comprometido con las necesidades y problemáticas que enfrentan los entusiastas del cuidado de plantas, quienes a menudo se ven afectados por la falta de información clara y herramientas eficientes para la gestión del bienestar de sus plantas. Es así como identificamos una oportunidad para proponer una solución innovadora que mejore la eficiencia y calidad en el cuidado de las plantas.
 
-La plataforma está diseñada para ser usada por profesionales de múltiples sectores —académico, legal, empresarial, tecnológico, sanitario—, ofreciendo una herramienta versátil que acelera la comprensión de información crítica, optimiza procesos de análisis y democratiza el acceso al conocimiento. De esta manera, DocMind busca cerrar la brecha entre el volumen de información y la capacidad humana de procesarla, mejorando la productividad y la toma de decisiones en distintas industrias.
-
-### **Misión**  
-Facilitar el acceso al conocimiento y aumentar la productividad profesional a través de una plataforma de inteligencia artificial que convierte documentos complejos en información clara, útil y accionable. Nuestro propósito es empoderar a estudiantes, investigadores, empresas y profesionales de diversas áreas con una herramienta confiable, segura y de fácil uso. 
-
-### **Visión**  
-Convertirnos en la plataforma líder a nivel global en análisis inteligente de documentos, reconocida por su precisión, velocidad y aplicabilidad transversal en múltiples industrias. Aspiramos a transformar la manera en que los profesionales leen, entienden y utilizan la información, posicionando a DocMind como un aliado indispensable en la era digital.
 
 ### **1.1.2 Perfiles de integrantes del equipo**
 
@@ -261,154 +254,294 @@ Convertirnos en la plataforma líder a nivel global en análisis inteligente de 
 
 ## **1.2 Solution Profile**
 
+En esta sección se describe el problema que el proyecto tiene como objetivo resolver. Se detalla el enunciado del problema, descripción de los puntos importantes a resolver y considerar de la solución, objetivos, restricción y aplicación del Lean UX Process describiendo el cómo se resolverá el problema mediante el uso de modelo de negoci
+
 ### **1.2.1 Antecedentes y problemática.**
 
-En los últimos años, el mundo ha experimentado un crecimiento exponencial en la generación de información digital. Artículos académicos, contratos legales, reportes técnicos, normativas empresariales y manuales especializados se producen en volúmenes cada vez mayores. Estos documentos suelen ser extensos, complejos y requieren interpretación detallada para su uso práctico.
+<h5><b>Antecedentes:</b></h5>
+<div align="justify">
+El mundo de la jardinería y el cuidado de plantas presenta actualmente desafíos que requieren soluciones creativas. Uno de los principales retos es la creciente popularidad de tener plantas en casa, impulsada por el deseo de conectar con la naturaleza y mejorar nuestros espacios. Esta tendencia exige que aprendamos más sobre cómo cultivar y mantener nuestras plantas saludables, lo que a su vez nos enfrenta a desafíos como entender sus necesidades específicas y adaptarnos a diferentes entornos. Además, quienes cuidan plantas a menudo se encuentran con la dificultad de monitorear y optimizar el crecimiento de sus plantas, así como la necesidad de asegurar que estén libres de plagas y enfermedades. Estos factores combinados resaltan la importancia de desarrollar conocimientos y métodos que nos ayuden a cuidar nuestras plantas de manera eficiente y exitosa.
+</div>
 
-Sin embargo, los profesionales y organizaciones enfrentan una brecha creciente entre la cantidad de información disponible y el tiempo necesario para procesarla. En entornos académicos, leer y analizar múltiples papers puede consumir días de trabajo. En sectores legales y empresariales, revisar contratos o regulaciones críticas implica altos costos de tiempo y riesgo de omisiones.
-
-A nivel global, la inteligencia artificial aplicada a la gestión de documentos ha demostrado ser una herramienta prometedora para la productividad: permite resumir textos, responder preguntas contextuales y extraer información clave en segundos. En países con alta digitalización, estas soluciones ya se aplican en universidades, despachos legales y corporaciones para reducir errores, acelerar procesos y optimizar la toma de decisiones.
-
-En este contexto surge DocMind, con la misión de desarrollar una plataforma cloud-native capaz de analizar documentos complejos en tiempo real y transformarlos en información clara, accesible y accionable para cualquier profesional. Su producto insignia, DocMind AI, busca atender la creciente necesidad de herramientas confiables, escalables y seguras que apoyen a investigadores, abogados, consultores y empresas en la interpretación de textos críticos.  
 
 ---
 
 ### **Problemática (5Ws y 2Hs)**
 
-#### **What (Qué)**  
-**¿Cuál es el problema?**  
-Existe una brecha significativa en la capacidad de procesar documentos extensos y técnicos de manera rápida y confiable. Profesionales de distintas áreas dependen de horas o días de lectura para encontrar información clave, lo que genera ineficiencias, errores de interpretación y pérdida de productividad. 
 
-#### **When (Cuándo)**  
-**¿Cuándo sucede el problema?**  
-El problema ocurre de forma continua en múltiples contextos:
-- Estudiantes e investigadores al preparar revisiones de literatura.
-- Abogados al analizar contratos y normativas.
-- Empresas al revisar reportes financieros, técnicos o de cumplimiento.
-- La saturación de información se agudiza en momentos críticos, como auditorías, investigaciones, juicios o entregas académicas de corto plazo.  
+##### WHAT/QUÉ 
+  
+En este proyecto, el problema central que abordamos es la dificultad que enfrentan las personas al cuidar plantas, especialmente aquellas que recién comienzan. Esta dificultad se manifiesta en la falta de información clara, el desconocimiento de las necesidades específicas de cada planta y la gestión ineficiente de los recursos necesarios para su cuidado, lo que puede llevar a la frustración y al abandono de esta actividad. 
 
-#### **Where (Dónde)**  
-**¿Dónde surge el problema?**  
-La problemática se presenta en universidades, centros de investigación, despachos legales, consultoras y corporaciones de todo el mundo, donde los equipos requieren procesar grandes volúmenes de documentos con rapidez y precisión. En Latinoamérica, esta necesidad se intensifica por la escasez de herramientas locales que aceleren el análisis documental.  
+##### WHERE/DÓNDE 
+  
+Este problema se da en los hogares de las personas aficionadas al jardín. Cualquier lugar donde las personas intentan cultivar y cuidar plantas, especialmente principiantes, pueden enfrentar estas dificultades. 
 
-#### **Who (Quién)**  
-**¿Quiénes están involucrados?**  
-- **Estudiantes e investigadores** que necesitan resumir y comprender múltiples fuentes en poco tiempo.
-- **Profesionales legales y empresariales** que requieren identificar cláusulas, plazos y riesgos en contratos y regulaciones.
-- **Gerentes y consultores** que deben extraer insights de reportes financieros y técnicos.
-- **Organizaciones** que buscan reducir costos y aumentar eficiencia en el manejo de información. 
+##### WHY/POR QUÉ 
 
-#### **Why (Por qué)**  
-**¿Cuál es la causa del problema?**  
-Las causas principales incluyen:
+Este problema surge porque cada vez más personas quieren tener plantas en casa, pero no siempre saben cómo cuidarlas correctamente. Esto puede deberse a la falta de información clara y accesible, o a que las necesidades de cada planta son diferentes y pueden ser difíciles de entender al principio. Además, a veces no contamos con el tiempo o los recursos necesarios para darles a nuestras plantas la atención que requieren 
 
-- **Volumen creciente de documentos digitales** que supera la capacidad humana de lectura.
-- **Procesos manuales** de análisis documental, lentos y sujetos a errores.
-- **Falta de herramientas transversales** que sirvan tanto para el sector académico como para el legal y empresarial.
-- **Limitaciones de tiempo y recursos** en profesionales que requieren tomar decisiones basadas en información compleja.
----
+##### WHEN/CUANDO
 
-### **Las 2H**  
+Este problema se manifiesta desde el momento en que decidimos traer una planta a nuestro hogar. Al inicio, no estamos seguros de cómo cuidarla y pueden surgir dificultades. También ocurre cuando las plantas experimentan cambios en su entorno, como trasplantes o cambios de estación, y no sabemos cómo adaptarnos a sus nuevas necesidades.
 
-#### **How (Cómo)**  
-**¿Cómo se utilizará el producto?**  
-El sistema se integrará mediante una plataforma web donde los usuarios podrán cargar documentos en PDF. El motor de IA procesará el archivo y permitirá realizar preguntas en lenguaje natural, devolviendo resúmenes, explicaciones y citas del documento en cuestión de segundos.
+##### WHO/QUIÉN
 
-**¿Cómo se logrará resolver el problema?**  
-Mediante el uso de modelos avanzados de lenguaje natural (NLP), arquitecturas cloud-native y un diseño escalable que permita manejar múltiples documentos al mismo tiempo. Además, el sistema garantizará seguridad, privacidad y trazabilidad de la información, adaptándose a distintos sectores profesionales.
+Personas interesadas en el mundo de las plantas con poco conocimiento acerca del cuidado adecuado.
 
-#### **How Much (Cuánto)**  
-**¿Cuál es la magnitud del problema?**  
-De acuerdo con **un informe de IDC (2023)**, el 80% de los datos generados en el mundo se encuentra en formato no estructurado (documentos, PDFs, textos largos). Profesionales pueden gastar hasta el 30% de su jornada laboral buscando y procesando información, lo que representa pérdidas económicas y de productividad millonarias a nivel global.
+##### HOW/CÓMO
 
-**¿Quiénes serán los beneficiados?**  
-- **Académicos e investigadores**, al ahorrar tiempo en la lectura de papers y tesis.
-- **Abogados y empresas**, al optimizar la revisión de contratos y normativas.
-- **Organizaciones de distintos sectores**, al mejorar la toma de decisiones mediante información más clara y accesible.
+Las personas podrán acceder a nuestra aplicación a través de sus teléfonos móviles o computadoras. Encontrarán información clara y fácil de entender sobre el cuidado de plantas, consejos, recordatorios de riego y fertilización, e incluso la posibilidad de identificar plantas y problemas comunes.
+
+##### HOW MUCH/CUÁNTO
+
+“El nivel de dificultad para cuidar una planta depende de factores como humedad, iluminación, riego y control de plagas. Las exigencias pueden variar según las condiciones del hogar y las tendencias del cuidador.” (Infobae, 2024)
+
+El problema de no saber cómo cuidar correctamente las plantas se manifiesta en la cantidad de plantas que mueren o se enferman en hogares y espacios de cultivo. Esto puede significar una pérdida económica, pero también una frustración emocional para quienes intentan mantenerlas con vida. A menudo, las personas gastan dinero en plantas y suministros sin obtener los resultados deseados, lo que lleva a un ciclo de compra y pérdida.
+
 
 ### **1.2.2 Lean UX Process.**
+
 #### **1.2.2.1 Lean UX Problem Statements.**
 
-DocMind busca acelerar y simplificar la comprensión de documentos complejos mediante IA. Si la plataforma no garantiza precisión en las respuestas, contexto verificable (citas dentro del documento) y facilidad de uso en distintos sectores, la adopción será limitada.
+Vitalia se sitúa en la intersección del cuidado de plantas, enfocándose específicamente en el nicho de los aficionados a la jardinería que buscan soluciones prácticas. Este segmento combina el deseo de tener plantas saludables con la necesidad de información clara y herramientas de monitoreo.
 
-**¿Cómo podemos ofrecer resúmenes confiables, respuestas contextuales y navegación clara dentro de documentos extensos, disponibles en web/mobile, con mínima fricción en la experiencia del usuario?**
+**Aficionados a la jardinería:** Cuidadores novatos que luchan por optimizar el cuidado de sus plantas debido a la falta de herramientas y conocimientos.
+
 
 ---
 
 #### **1.2.2.2 Lean UX Assumptions.**
 
-**User Assumptions**  
+**Features**
+- Herramientas de monitorización del crecimiento de plantas: Sensores para recopilar datos sobre condiciones ambientales, humedad del suelo, y salud de los cultivos.
+- Plataforma integrada de gestión: Suite de herramientas que abarca la planificación de cultivos, gestión de la mano de obra, programación de riego, y funcionalidades de análisis de datos para identificar áreas de mejora y optimizar la eficiencia operativa en todas las etapas de crecimiento de las plantas.
 
-- **Quién es el usuario:** Investigadores, estudiantes, abogados, analistas, consultores y gerentes.
+**Business Outcomes**
 
-- **Dónde encaja el producto**: En el flujo de análisis documental (papers académicos, contratos, reportes financieros, manuales técnicos).
+* **Mejora de la eficiencia operativa:** Reducción de los tiempos de inactividad y los costos asociados con la gestión de cuidado y la resolución de problemas mediante la automatización y la aplicación de datos en tiempo real para la toma de decisiones.
 
-- **Problemas a resolver:** Reducir tiempos de lectura, facilitar acceso a información crítica, y evitar omisiones por sobrecarga de texto.
+* **Aumento de la rentabilidad:** Reducción de las pérdidas debido a enfermedades que no son detectadas, mejora de la productividad y la calidad de las plantas, lo que puede traducirse en mayores márgenes de beneficio para los cuidadores.
 
-- **Cuándo y cómo se usa:** A diario; los usuarios cargan PDFs, hacen preguntas en lenguaje natural y obtienen resúmenes o citas clave.
+* **Reducción de riesgos y cumplimiento normativo:** Mayor capacidad para responder rápidamente a problemas emergentes, como brotes de enfermedades o eventos climáticos extremos, minimizando el impacto en la producción y la distribución.
 
-- **Cómo debe verse y comportarse:** Interfaz intuitiva, accesible, con opciones claras de resumen, búsqueda y preguntas rápidas.
+**Users**
 
-**Business Assumptions**  
-- Los clientes necesitan extraer información clave de documentos de manera inmediata para mejorar productividad.
-- Esto se logrará con una arquitectura cloud-native, escalable y segura.
-- **Principal valor:** Ahorro de tiempo y aumento en la precisión de la toma de decisiones. 
+Los usuarios son personas interesadas en el cuidado de plantas.
 
-- **Beneficios adicionales:**  
-  - Adaptabilidad multisectorial (educación, legal, empresarial, técnico).
-  - Experiencia de usuario ágil en web y móvil.
-  - Cumplimiento de seguridad y privacidad en el manejo de documentos.
+**User Outcomes & Benefits**
+
+* **Aficionados al jardín:** Personas que empezaron a cultivar plantas y están aprendiendo a cuidarlos.
+
+**User assumptions**
+
+**¿Quién es el usuario?**
+El usuario es típicamente un aficionado a la jardinería busca mejorar la eficiencia y calidad de sus plantas.
+
+* **¿Dónde encaja nuestro producto en sus trabajos o vidas?**
+Nuestra aplicación encaja perfectamente en su día a día al facilitar el cuidado de sus plantas, desde entender sus necesidades básicas hasta identificar problemas y recibir consejos personalizados, optimizando así su experiencia como amantes de las plantas.
+
+* **¿Qué problema resuelve nuestro producto?*
+Nuestro producto resuelve problemas como dificultad para monitorear el crecimiento de cultivos, mejorando la eficiencia operativa y mejorar de la calidad de la plantas
+
+* **¿Cuándo y cómo es usado nuestro producto?**
+Nuestro producto es utilizado a lo largo de todo el ciclo de vida de las plantas, desde su plantación y crecimiento, a través de una plataforma digital accesible desde dispositivos móviles o computadoras.
+
+* **¿Qué características son importantes?**
+Las características de seguimiento de la cadena de suministro en tiempo real, gestión automatizada de las necesidades de la plantas, herramientas de monitorización de cultivos y análisis de datos para la toma de decisiones informadas.
+
+* **¿Cómo debería verse y comportarse nuestro producto?**
+Nuestro producto debe ser una interfaz intuitiva y fácil de usar, con visualizaciones claras de datos y esto de las plantas. Debería ser confiable, escalable y adaptable a las necesidades específicas de cada usuario.
+
+**Business Assumptions**
+1. Creemos que nuestros clientes necesitan una solución que les permita gestionar eficientemente el cuidado de las plantas, mejorando la eficiencia y la calidad.
+2. Estas necesidades pueden ser satisfechas por una plataforma digital que integre sensores. Estos sensores proporcionarían información sobre el clima, la humedad, el monitoreo de cultivos y el análisis de datos. Esto proporcionaría herramientas poderosas para la toma de decisiones informadas.
+3. El valor #1 que mi cliente quiere de mi servicio es la mejora en la eficiencia y la calidad de sus plantas, lo que les permite maximizar los rendimientos.
+4. El cliente obtiene beneficios al tener un mejor manejo de sus plantas ya que se detectara el estado del clima y plagas y el propio sistema sabrán cómo tratarlas.
+5. Voy a adquirir la mayoría de mis clientes a través de campañas de marketing y redes sociales.
+6. Haré dinero a través de modelos de suscripción mensual por el acceso a mejor información de nuestra plataforma.
+7. Mi competencia principal en el mercado son otras soluciones de cuidado de plantas, tanto tradicionales como digitales.
+8. Los venceremos debido a la simplicidad y facilidad de uso de nuestra plataforma, así como a su capacidad para ofrecer una solución integral y altamente personalizable que se adapte a las necesidades específicas de cada cliente.
+9. El mayor riesgo es que los clientes no adopten nuestra solución debido a la resistencia al cambio o a la falta de conocimiento tecnológico.
+10. Resolveremos esto a través de demostraciones y pruebas gratuitas de nuestra plataforma, y proporcionando un sólido soporte al cliente para garantizar una implementación exitosa y una experiencia positiva del usuario.
+
 ---
 
 #### **1.2.2.3 Lean UX Hypothesis Statements.**
 
-- **Creemos que** ofrecer resúmenes automáticos y preguntas-respuestas sobre documentos extensos **logrará** reducir el tiempo que los profesionales invierten en la lectura.
-**Lo sabremos cuando veamos** que más del 60% de los usuarios utilicen la función de resumen en al menos tres documentos por semana.
+**Hipótesis 1:**
+**Creemos que** al implementar un sistema que muestre las condiciones en las que se encuentran las plantas optimizará su cuidado y permitirá tomar medidas preventivas. **Sabremos que** hemos tenido éxito cuando se detecten problemas significativos que afecten a la planta y se pueda brindar un mejor cuidado.
 
-- **Creemos que** mostrar citas textuales vinculadas a la respuesta logrará aumentar la confianza de los usuarios en el sistema.
-**Lo sabremos cuando veamos** que más del 70% de los usuarios revisen la sección de “referencia al documento” al consultar respuestas.
-
-- **Creemos que** habilitar interfaces web y móviles optimizadas logrará que los usuarios consulten documentos en diversos entornos (universidad, oficina, teletrabajo).
-**Lo sabremos cuando veamos** que al menos el 50% de los accesos provengan desde dispositivos móviles o fuera de entornos corporativos.
-
-- **Creemos que** integrar la opción de búsqueda avanzada y filtros dentro de los documentos logrará mejorar la precisión en el análisis de información clave.
-**Lo sabremos cuando veamos** que los usuarios reduzcan en un 20% el tiempo promedio de búsqueda de información dentro de un documento.
-
-- **Creemos que** ofrecer reportes de uso (tiempos de lectura ahorrados, documentos procesados, citas extraídas) logrará aumentar la percepción de valor en equipos académicos y corporativos.
-**Lo sabremos cuando veamos** que al menos el 40% de los administradores o gestores descarguen reportes mensualmente.
-
-- **Creemos que** permitir la carga de múltiples documentos y la comparación entre ellos logrará optimizar el trabajo en proyectos de investigación y análisis empresarial.
-**Lo sabremos cuando veamos** que más del 30% de los usuarios usen la función de comparación en al menos dos sesiones mensuales.
+**Hipótesis 2:**
+**Creemos que** el uso de sensores en el sistema brindará información sobre las condiciones de las plantas. **Sabremos que** hemos tenido éxito cuando observemos un aumento significativo en la salud y vitalidad general de las plantas, obteniendo un mayor crecimiento.
 
 #### **1.2.2.4 Lean UX Canvas.**
 <img src="img/Lean-UX-Canvas.jpg">
 
 ## **1.3 Segmentos objetivo** 
 
-  -Usuarios:profesores universitarios, médicos especialistas.
-  - Problema: necesitan analizar papers, tesis y revisiones científicas extensas en poco tiempo.
-  - Cómo ayuda DocMind: resume artículos, extrae citas, encuentra datos clave y permite preguntas directas al PDF (ej. “¿cuáles son las conclusiones del estudio?”).
-  - Ejemplo de uso: un residente de anestesiología sube una guía clínica de 200 páginas y obtiene resúmenes rápidos de protocolos específicos en segundos.
+ * **Aficionados a la jardinería que buscan mejorar sus habilidades y el éxito de sus plantas** Los usuarios utilizarán "Plantita" para acceder a información personalizada, herramientas de monitoreo y una comunidad de apoyo, con el fin de mejorar la salud y el crecimiento de sus plantas.
 
-  2. **Sector Legal y Empresarial**
+* **Características Demográficas:** Personas entre 20 y 50 años, que viven en áreas urbanas y suburbanas, con un interés en la jardinería y el cuidado de plantas pero con conocimientos limitados.  Posiblemente con un nivel educativo medio o superior y con acceso a dispositivos móviles y tecnología.
 
-  - Usuarios: abogados, consultores, analistas de compliance, gerentes de empresas.
-  - Problema: los contratos, reportes financieros y normativas legales son densos y difíciles de revisar.
-  - Cómo ayuda DocMind: identifica cláusulas críticas, plazos, riesgos y genera resúmenes claros de documentos extensos.
-  - Ejemplo de uso: un abogado corporativo sube un contrato internacional y le pregunta a DocMind: “¿qué cláusula regula las penalidades por incumplimiento?” y obtiene la respuesta inmediata.
+* **Características Geográficas:** Inicialmente enfocado en áreas urbanas y suburbanas en Perú, con potencial de expansión a otras regiones y países con un interés similar en la jardinería doméstica y el cuidado de plantas.
+</div>
 
 
+# Capítulo II: Requirements Elicitation & Analysis
+
+## 2.1. Competidores.
+
+- **ChatDOC** → Herramienta ágil para leer documentos complejos en minutos, con interfaz tipo chat y soporte para varios formatos.  
+- **AskYourPDF** → Permite hacer preguntas a PDFs con búsqueda contextual y respuestas con referencias, útil para no perder datos clave.  
+- **Upword** → Plataforma de resúmenes y notas inteligentes, pensada para estudiantes y profesionales que quieren ahorrar tiempo de lectura.
+
+### 2.1.1. Análisis competitivo                                                              |
+
+| **Competitive Analysis Landscape** |                                                                                                                                          |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **¿Por qué llevar a cabo este análisis?** | Identificar fortalezas, debilidades, oportunidades y amenazas frente a competidores para definir mejor la propuesta de valor.         |
+| **r1**                             | **r2**                                                                                                                                   |
+
+| **Nombre del Competidor** | **Docmind**                                                                                                           | **ChatDOC**                                                                                                                                                                                        | **AskYourPDF**                                                                                                               | **Upword**                                                                                                       |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Overview**                     | Plataforma IA que resume, clasifica y responde preguntas sobre documentos extensos, orientada a empresas.                 | Herramienta ágil y accesible para cualquier profesional que necesite consultar rápidamente información clave dentro de documentos complejos, diferenciándose por su interfaz tipo chat y compatibilidad multi-formato. | Servicio IA para subir PDFs y consultarlos en lenguaje natural con búsqueda contextual.                                           | Plataforma IA para resumir documentos y generar notas inteligentes que optimizan el estudio y la lectura.           |
+| **Ventaja competitiva / Valor**  | Procesa grandes volúmenes con filtros corporativos avanzados.                                                              | Reduce horas de lectura de documentos complejos a minutos, en una interfaz sencilla y rápida.                                                                                                            | Evita pasar por alto datos importantes gracias a búsquedas contextuales y respuestas con referencias.                             | Accesibilidad: no requiere conocimientos técnicos; se usa como un chat.                                             |
+| **Mercado objetivo**             | Empresas medianas y grandes con alta carga documental.                                                                     | Profesionales y equipos con necesidad de lectura rápida (legal, salud, ingeniería, investigación).                                                                                                       | Startups, equipos distribuidos, soporte remoto.                                                                                  | Estudiantes, profesionales independientes, freelancers.                                                             |
+| **Productos & Servicios**        | Clasificación documental, resúmenes, control de permisos y equipos.                                                        | Chat con documentos, exportación de datos clave, compatibilidad multi-formato.                                                                                                                           | Chat con PDFs, integraciones con Slack.                                                                                            | Resúmenes, notas inteligentes, exportación y colaboración ligera.                                                  |
+| **Precios & Costos**             | Suscripción                                                                                          | Freemium con planes premium escalables.                                                                                                                                                                 | Freemium con pago por uso o suscripción mensual.                                                                                   | Suscripción mensual o anual para desbloquear funciones avanzadas.                                                  |
+| **Canales de distribución**      | Ventas directas a empresas, integraciones con plataformas internas.                                                         | Web app abierta, versión beta móvil planeada, marketing digital.                                                                                                                                         | Web y Slack como principales canales.                                                                                              | Web y extensiones orientadas a productividad personal.                                                              |
+| **Fortalezas**                   | Colaboración robusta, control de permisos, buen soporte.                                                                    | Simplicidad, curva de aprendizaje mínima, rapidez.                                                                                                                                                       | Integración con flujos de trabajo existentes.                                                                                       | Foco en productividad personal, notas editables.                                                                    |
+| **Debilidades**                  | Menos atractivo para usuarios individuales, curva de uso más técnica.                                                        | Menos robusto para entornos corporativos grandes.                                                                                                                                                        | Funciones limitadas, sin análisis profundo.                                                                                          | No orientado a documentos técnicos complejos.                                                                      |
+| **Oportunidades**                | Expansión a sectores regulados (banca, legal).                                                                                  | Versión móvil, colaboración en equipo.                                                                                                                                                                 | Crecimiento de equipos remotos.                                                                                                      | Integrarse con más fuentes de datos.                                                                                 |
+| **Amenazas**                     | IA generalistas más baratas.                                                                                                 | Competidores con funciones más avanzadas.                                                                                                                                                               | Integraciones nativas de IA en plataformas populares.                                                                                 | Apps de productividad más completas con IA integrada.                                                                |
+
+### 2.1.2. Estrategias y tácticas frente a competidores.
+
+| **Estrategia / Táctica**                    | **Descripción**                                                                                      | **Objetivo**                                      |
+|--------------------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| **Diferenciación por velocidad**            | Optimizar el tiempo de análisis de documentos con IA para entregar respuestas en segundos.            | Superar a competidores en rapidez y eficiencia.   |
+| **Experiencia de usuario simplificada**     | Ofrecer una interfaz intuitiva tipo “chat con PDF”, sin necesidad de conocimientos técnicos.          | Atraer usuarios no técnicos y aumentar adopción.  |
+| **Modelo Freemium accesible**               | Permitir comenzar gratis, sin tarjeta de crédito, con planes premium escalables.                     | Facilitar la prueba y aumentar la base de clientes.|
+| **Enfoque multi-sector**                    | Adaptar la herramienta para diferentes industrias (académico, legal, salud, corporativo).            | Ampliar el mercado objetivo y reducir dependencia de un solo nicho.|
+| **Respuestas con referencias al documento** | Incluir citas exactas del PDF para aumentar la confianza en la información entregada.                 | Diferenciarse de resúmenes genéricos de IA.       |
+| **Alianzas estratégicas**                   | Posible integración con plataformas de almacenamiento en la nube (Google Drive, Dropbox, etc.).      | Aumentar el alcance y la comodidad de uso.        |
+| **Mejoras continuas de IA**                 | Entrenar modelos especializados por sector (legal, médico, técnico).                                 | Superar a competidores con resultados más precisos y relevantes. |
+
+## 2.2. Entrevistas.
+### 2.2.1. Diseño de entrevistas.
+
+En esta sección se han definido todas las preguntas que se plantearán en el momento de realizar las entrevistas a los diferentes segmentos objetivos.
+
+**Preguntas Generales**
+
+- ¿Cuál es su nombre y cargo actual?  
+- ¿En qué institución o centro de salud trabaja actualmente?  
+- ¿Cuál es su especialidad o área de mayor actividad profesional?  
+- ¿Qué nivel de familiaridad tiene con herramientas digitales o de inteligencia artificial?  
+- ¿Qué principales retos identifica en el manejo y análisis de IA en su día a día?  
+- ¿Qué expectativas tendría respecto al uso de nuevas tecnologías para mejorar en el trabajo?
+- ¿Con qué frecuencia trabajas con documentos extensos o complejos? 
+
+---
+
+**Preguntas Segmento 1: Empresas y Startups**
+
+-¿Te toma mucho tiempo revisar reportes técnicos, manuales o documentos internos?
+-¿Usas actualmente alguna herramienta para ayudarte a resumir o buscar información dentro de PDFs?
+-¿Cómo impactaría en tu productividad el poder extraer la información clave de forma inmediata?
+-Te resultaría útil una aplicación que pueda responder preguntas sobre tus documentos en segundos?
+
+---
+
+**Preguntas Segmento 2: Sector Salud y Clínico**
+
+- ¿Qué beneficios esperaría obtener a corto y mediano plazo de una solución de este tipo?
+- ¿Sueles analizar estudios médicos con mucha terminología compleja?
+- ¿Te sería útil una app que te entregue resúmenes claros y datos clínicos extraídos automáticamente?
+- ¿Revisas documentos normativos, leyes o planes de desarrollo con frecuencia?
+- ¿Te interesaría una herramienta que te ayude a resumirlos y encontrar cifras clave más rápido?
+
+### 2.2.2. Registro de entrevistas.
+### 2.2.3. Análisis de entrevistas.
+## 2.3. Needfinding.
+
+1. Usuarios objetivo:
+
+Investigadores / estudiantes
+
+Médicos o personal de salud
+
+Empresas
+
+Startups
+
+2. Preguntas de Needfinding
+
+¿Qué tan seguido trabajas con documentos largos o complejos?
+
+¿Qué partes del proceso te resultan más lentas o frustrantes?
+
+¿Has perdido oportunidades o cometido errores por no entender un documento a tiempo?
+
+¿Qué haces ahora para acelerar la lectura o análisis de documentos?
+
+¿Qué sería “ideal” para ti al trabajar con documentos así?
+
+3. Ejemplos de insights posibles
+
+Los abogados pierden tiempo buscando cláusulas específicas y comparando contratos.
+
+Los investigadores copian y pegan secciones para resumir manualmente.
+
+Los investigadores  deben revisar manuales técnicos densos para encontrar solo un par de datos clave.
+
+4. Traducción a oportunidades de diseño
+
+Función de búsqueda por conceptos, no solo por palabras exactas.
+
+Chat interactivo que cite de dónde sacó la información.
+
+Resúmenes personalizables .
+
+### 2.3.1. User Personas.
+
+![User Persona1](/asetss/User%20persona%201.jpg)
+![User Persona2](/asetss/user%20persona%202.jpg)
+
+### 2.3.2. User Task Matrix.
+
+| **Tarea del Usuario**                      | **Perfil de Usuario #1 – Empresa** | **Perfil de Usuario #2 – Startup** | **Perfil de Usuario #3 – Sector Salud** |
+|-------------------------------------------|-----------------------------------|------------------------------------|-----------------------------------------|
+| Subir documentos PDF                       | Frecuente                         | Frecuente                          | Frecuente                                |
+| Hacer preguntas sobre el contenido         | Múltiple                          | Múltiple                           | Múltiple                                 |
+| Buscar cláusulas o términos específicos    | Múltiple                          | Múltiple                           | Raro                                    |
+| Generar resúmenes rápidos                  | Múltiple                          | Múltiple                           | Múltiple                                |
+| Extraer citas o referencias precisas       | Raro                              | Múltiple                           | Múltiple                                |
+| Compartir o exportar resultados            | Múltiple                          | Múltiple                           | Múltiple                                |
+| Consultar recomendaciones automáticas      | Raro                              | Múltiple                           | Múltiple                                |
+| Analizar grandes volúmenes de documentos   | Múltiple                          | Raro                               | Múltiple                                |
 
 
 
+### 2.3.3. Empathy Mapping.
 
+![Empathy Mapping](/asetss/Empathy%20map.jpg)
 
+### 2.3.4. As-is Scenario Mapping.
 
+![As-is Scenario Mapping](/asetss/gra.png)
 
+## 2.4. Ubiquitous Language.
 
-
-
-Conclusiones
-Conclusiones y recomendaciones.
-Video App Validation
-Video About-the-Team.
+| **Término**            | **Definición en el dominio**                                                                 |
+|------------------------|-----------------------------------------------------------------------------------------------|
+| **Documento**          | Archivo PDF cargado por el usuario que contiene la información a analizar.                    |
+| **Carga**              | Acción de subir un PDF a la plataforma.                                                       |
+| **Procesamiento**      | Análisis del contenido del PDF con IA para generar un modelo semántico.                       |
+| **Chat**               | Interfaz de conversación entre el usuario y el contenido procesado.                           |
+| **Consulta**           | Pregunta del usuario sobre el documento.                                                      |
+| **Respuesta contextual**| Contestación de la IA que incluye datos y, cuando es posible, referencia a la sección del PDF.|
+| **Resumen**            | Síntesis automática del contenido del documento según los parámetros del usuario.              |
+| **Equipo**             | Grupo de usuarios (empresa, universidad, etc.) que utilizan la plataforma colaborativamente.   |
+| **Sesión**             | Periodo en el que un usuario interactúa con uno o varios documentos.                          |
