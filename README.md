@@ -200,7 +200,8 @@ Los integrantes son:
 
 ### **1.1.1 Descripción de la startup**
 
-Vitalia es una startup conformada por estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Juntos, somos un equipo comprometido con las necesidades y problemáticas que enfrentan los entusiastas del cuidado de plantas, quienes a menudo se ven afectados por la falta de información clara y herramientas eficientes para la gestión del bienestar de sus plantas. Es así como identificamos una oportunidad para proponer una solución innovadora que mejore la eficiencia y calidad en el cuidado de las plantas.
+Vitalia es una startup conformada por estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Juntos, somos un equipo comprometido con las necesidades y problemáticas que enfrentan los  productores de licores
+, quienes a menudo se ven afectados por la falta de información clara y herramientas eficientes para la gestión del bienestar de sus cultivos. Es así como identificamos una oportunidad para proponer una solución innovadora que mejore la eficiencia y calidad en el cuidado de las estos.
 
 
 ### **1.1.2 Perfiles de integrantes del equipo**
@@ -271,11 +272,11 @@ El mundo de la jardinería y el cuidado de plantas presenta actualmente desafío
 
 ##### WHAT/QUÉ 
   
-En este proyecto, el problema central que abordamos es la dificultad que enfrentan las personas al cuidar plantas, especialmente aquellas que recién comienzan. Esta dificultad se manifiesta en la falta de información clara, el desconocimiento de las necesidades específicas de cada planta y la gestión ineficiente de los recursos necesarios para su cuidado, lo que puede llevar a la frustración y al abandono de esta actividad. 
+En este proyecto, el problema central que abordamos es la dificultad que enfrentan las personas al cuidar las producciones de licor , especialmente aquellas que recién comienzan. Esta dificultad se manifiesta en la falta de información clara, el desconocimiento de las necesidades específicas de cada cultivo y la gestión ineficiente de los recursos necesarios para su cuidado, lo que puede llevar a la frustración y al abandono de esta actividad. 
 
 ##### WHERE/DÓNDE 
   
-Este problema se da en los hogares de las personas aficionadas al jardín. Cualquier lugar donde las personas intentan cultivar y cuidar plantas, especialmente principiantes, pueden enfrentar estas dificultades. 
+Este problema se da en los hogares de las cultivadores de vino . Cualquier lugar donde las personas intentan cultivar y cuidar plantas, especialmente principiantes, pueden enfrentar estas dificultades. 
 
 ##### WHY/POR QUÉ 
 
