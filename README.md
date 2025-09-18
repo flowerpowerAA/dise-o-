@@ -1,179 +1,190 @@
-# trabajo final
-Registro de Versiones del Informe
-Project Report Collaboration Insights
-Contenido
-Tabla de contenidos
-Student Outcome
-Part I: As-Is Software Project
-Capítulo I: Introducción
-1.1. Startup Profile
-1.1.1. Descripción de la Startup
-1.1.2. Perfiles de integrantes del equipo
-1.2. Solution Profile
-1.2.1. Antecedentes y problemática
-1.2.2. Lean UX Process.
-1.2.2.1. Lean UX Problem Statements.
-1.2.2.2. Lean UX Assumptions.
-1.2.2.3. Lean UX Hypothesis Statements.
-1.2.2.4. Lean UX Canvas.
-1.3. Segmentos objetivo.
-Capítulo II: Requirements Elicitation & Analysis
-2.1. Competidores.
-2.1.1. Análisis competitivo.
-2.1.2. Estrategias y tácticas frente a competidores.
-2.2. Entrevistas.
-2.2.1. Diseño de entrevistas.
-2.2.2. Registro de entrevistas.
-2.2.3. Análisis de entrevistas.
-Página 6 de 50
-2.3. Needfinding.
-2.3.1. User Personas.
-2.3.2. User Task Matrix.
-2.3.3. User Journey Mapping.
-2.3.4. Empathy Mapping.
-2.3.5. As-is Scenario Mapping.
-2.4. Ubiquitous Language.
-Capítulo III: Requirements Specification
-3.1. To-Be Scenario Mapping.
-3.2. User Stories.
-3.3. Product Backlog.
-3.4. Impact Mapping.
-Capítulo IV: Product Design
-4.1. Style Guidelines.
-4.1.1. General Style Guidelines.
-4.1.2. Web Style Guidelines.
-4.1.3. Mobile Style Guidelines.
-4.1.3.1. iOS Mobile Style Guidelines.
-4.1.3.2. Android Mobile Style Guidelines.
-4.2. Information Architecture.
-4.2.1. Organization Systems.
-4.2.2. Labeling Systems.
-4.2.3. SEO Tags and Meta Tags
-4.2.4. Searching Systems.
-4.2.5. Navigation Systems.
-4.3. Landing Page UI Design.
-4.3.1. Landing Page Wireframe.
-4.3.2. Landing Page Mock-up.
-4.4. Mobile Applications UX/UI Design.
-4.4.1. Mobile Applications Wireframes.
-4.4.2. Mobile Applications Wireflow Diagrams.
-4.4.3. Mobile Applications Mock-ups.
-4.4.4. Mobile Applications User Flow Diagrams.
-4.5. Mobile Applications Prototyping.
-4.5.1. Android Mobile Applications Prototyping.
-4.5.2. iOS Mobile Applications Prototyping.
-4.6. Web Applications UX/UI Design.
-4.6.1. Web Applications Wireframes.
-4.6.2. Web Applications Wireflow Diagrams.
-4.6.3. Web Applications Mock-ups.
-4.6.4. Web Applications User Flow Diagrams.
-4.7. Web Applications Prototyping.
-4.8. Domain-Driven Software Architecture.
-4.8.1. Software Architecture Context Diagram.
-4.8.2. Software Architecture Container Diagrams.
-4.8.3. Software Architecture Components Diagrams.
-Página 7 de 50
-4.9. Software Object-Oriented Design.
-4.9.1. Class Diagrams.
-4.9.2. Class Dictionary.
-4.10. Database Design.
-4.10.1. Relational/Non-Relational Database Diagram.
-Capítulo V: Product Implementation
-5.1. Software Configuration Management.
-5.1.1. Software Development Environment Configuration.
-5.1.2. Source Code Management.
-5.1.3. Source Code Style Guide & Conventions.
-5.1.4. Software Deployment Configuration.
-5.2. Product Implementation & Deployment.
-5.2.1. Sprint Backlogs.
-5.2.2. Implemented Landing Page Evidence
-5.2.3. Implemented Frontend-Web Application Evidence
-5.2.4. Acuerdo de Servicio - SaaS
-5.2.5. Implemented Native-Mobile Application Evidence
-5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
-5.2.7. RESTful API documentation
-5.2.8. Team Collaboration Insights
-5.3. Video About-the-Product.
-Part II: Verification, Validation & Pipeline
-Capítulo VI: Product Verification & Validation
-6.1. Testing Suites & Validation
-6.1.1. Core Entities Unit Tests.
-6.1.2. Core Integration Tests.
-6.1.3. Core Behavior-Driven Development
-6.1.4. Core System Tests.
-6.2. Static testing & Verification
-6.2.1. Static Code Analysis
-6.2.1.1. Coding standard & Code conventions.
-6.2.1.2. Code Quality & Code Security.
-6.2.2. Reviews
-6.3. Validation Interviews.
-6.3.1. Diseño de Entrevistas.
-6.3.2. Registro de Entrevistas.
-6.3.3. Evaluaciones según heurísticas.
-6.4. Auditoría de Experiencias de Usuario
-6.4.1. Auditoría realizada.
-6.4.1.1. Información del grupo auditado.
-6.4.1.2. Cronograma de auditoría realizada.
-6.4.1.3. Contenido de auditoría realizada.
-6.4.2. Auditoría recibida.
-6.4.2.1. Información del grupo auditor.
-6.4.2.2. Cronograma de auditoría recibida.
-6.4.2.3. Contenido de auditoría recibida.
-Página 8 de 50
-6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
-Capítulo VII: DevOps Practices
-7.1. Continuous Integration
-7.1.1. Tools and Practices.
-7.1.2. Build & Test Suite Pipeline Components.
-7.2. Continuous Delivery
-7.2.1. Tools and Practices.
-7.2.2. Stages Deployment Pipeline Components.
-7.3. Continuous deployment
-7.3.1. Tools and Practices.
-7.3.2. Production Deployment Pipeline Components.
-7.4. Continuous Monitoring
-7.4.1. Tools and Practices
-7.4.2. Monitoring Pipeline Components
-7.4.3. Alerting Pipeline Components
-7.4.4. Notification Pipeline Components.
-Part III: Experiment-Driven Lifecycle
-Capítulo VIII: Experiment-Driven Development
-8.1. Experiment Planning
-8.1.1. As-Is Summary.
-8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
-8.1.3. Experiment-Ready Questions.
-8.1.4. Question Backlog.
-8.1.5. Experiment Cards.
-8.2. Experiment Design
-8.2.1. Hypotheses.
-8.2.2. Domain Business Metrics
-8.2.3. Measures.
-8.2.4. Conditions.
-8.2.5. Scale Calculations and Decisions.
-8.2.6. Methods Selection.
-8.2.7. Data Analytics: Goals, KPIs and Metrics Selection.
-8.2.8. Web and Mobile Tracking Plan.
-8.3. Experimentation
-8.3.1. To-Be User Stories.
-8.3.2. To-Be Product Backlog
-8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
-8.3.3.1. To-Be Sprint Backlogs
-8.3.3.2. Implemented To-Be Landing Page Evidence
-8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
-8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-8.3.3.6. Team Collaboration Insights
-8.3.4. To-Be Validation Interviews
-8.3.4.1. Diseño de Entrevistas.
-Página 9 de 50
-8.3.4.2. Registro de Entrevistas.
-8.4. Experiment Aftermath & Analysis
-8.4.1. Analysis and Interpretation of Results
-8.4.2. Re-scored and Re-prioritized Question Backlog
-8.5. Continuous Learning
-8.5.1. Shareback Session Artifacts: Learning Workflow
-8.6. To-Be Software Platform Pre-launch
-8.6.1. About-the-Product Intro Video
+<h1 style="text-align: center;"> Informe del Trabajo Final </h1>
+<h3 style="text-align: center;"> Universidad Peruana de Ciencias Aplicadas </h3>
+
+<img src=https://github.com/Integradis-OpenSource/TFDocOpenSource/assets/114628079/4be29e42-94e4-4b80-85ae-3433dde891e4 
+style="display: block; 
+margin-left:auto; 
+margin-right: auto; 
+width=50%"/>
+
+<h5 style="text-align: center"> Área: Ingeniería de Software </h5>
+
+<h5 style="text-align: center"> Curso: Diseño de Experimentos de Ingeniería de Software </h5>
+<h5 style="text-align: center"> Sección: 7500 </h5>
+<h5 style="text-align: center"> Ciclo: 7 </h5>
+
+<h5 style="text-align: center"> Docente: Ivan Robles Fernández</h5>
+
+<h5 style="text-align: center"> Startup: Vitalia </h5>
+
+<h5 style="text-align: center"> Producto: Vitalia </h5>
+
+## Team members:
+
+|                Nombre                 |   Código   |
+| :-----------------------------------: | :--------: |
+|  Cabanillas Gora Andrea              | u202211711 |
+|  |  |
+|   |  |
+|   |  |
+|   |  |
+
+<h5 style="text-align: center"> Ciclo 2025-02 </h5>
+
+# Registro de Versiones del Informe
+
+El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto. Esta sección inicia en una página nueva y se incluye un cuadro con la siguiente estructura:
+
+| Versión | Fecha      | Autores                     | Descripción de Modificaciones |
+|---------|------------|-----------------------------|-------------------------------|
+| 1era    |  17/09/2025 | Cabanillas Gora Andrea Milagros, Olivera Guerra, Santiago Mickelle , Vasquez Requejo Augusto Mathias Leonardo, Fabian Reyes Trujillano, Gabriel Anthony Braithuaite Toledo|Carátula, CapítuloI, Capítulo II, Capítulo III, Capítulo IV |
+
+
+
+## Project Report Collaboration Insights
+
+
+URL del repositorio para el reporte del proyecto:
+
+
+
+**TB1**
+
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+| Integrante                            | Tareas Asignadas                                                                                                                           |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| |Chapters 01,02,03,04,05                   |
+| Cabanillas Gora Andrea Milagros     | Chapters 01,02,03,04,05|
+|      | Chapters 01,02,03,04,05  |
+|  | Chapters 01,02,03,04,05|
+|  | Chapters 01,02,03,04,05|
+
+Los integrantes son:
+
+- Cabanillas Gora Andrea Milagros 
+
+## Contenido
+## Índice
+
+- [Capítulo I: Introducción](/docs/Chapter-01.md)
+    - [1.1. StartUp Profile](/docs/Chapter-01.md#11-startup-profile)
+        - [1.1.1. Descripción de la StartUp](/docs/Chapter-01.md#111-descripción-de-la-startup)
+        - [1.1.2. Perfiles de Integrantes del equipo](/docs/Chapter-01.md#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](/docs/Chapter-01.md#12-solution-profile)
+        - [1.2.1. Antecedentes y Problemática](/docs/Chapter-01.md#121-antecedentes-y-problemática)
+        - [1.2.2. Lean UX Process](/docs/Chapter-01.md#122-lean-ux-process)
+            - [1.2.2.1. Lean UX Problem Statements](/docs/Chapter-01.md#1221-lean-ux-problem-statements)
+            - [1.2.2.2. Lean UX Assumptions](/docs/Chapter-01.md#1222-lean-ux-assumptions)
+            - [1.2.2.3. Lean UX Hyphotesis Statements](/docs/Chapter-01.md#1223-lean-ux-hyphotesis-statements)
+            - [1.2.2.4. Lean UX Canvas](/docs/Chapter-01.md#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo](/docs/Chapter-01.md#13-segmentos-objetivo)
+    
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+        - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
+        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+        - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
+        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+        - [2.3.1. User Persona](#231-user-persona)
+        - [2.3.2. User Task Matrix](#232-user-task-matrix)
+        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+        - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+        - [2.3.6. Ubiquitous Language](#236-ubiquitous-language)
+        
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [3.2. User Stories](#32-user-stories)
+    - [3.3. Impact Mapping](#33-impact-mapping)
+    - [3.4. Product Backlog](#34-product-backlog)
+    
+- [Capítulo IV: Solution Software Design](#capítulo-iv-product-design)
+    - [4.1. Strategic-Level Domain-Driven Design](#41-style-guidelines)
+        - [4.1.1. EventStorming](#411-general-style-guidelines)
+            - [4.1.1.1 Candidate Context Discovery](#412-web-style-guidelines)
+            - [4.1.1.1 Domain Message Flows Modeling](#412-web-style-guidelines)
+            - [4.1.1.1 Bounded Context Canvases](#412-web-style-guidelines)
+        - [4.1.2 Context Mapping](#42-information-architecture)
+        - [4.1.3. Software Architecture](#421-organization-systems)
+            - [4.1.3.2 Software Architecture Context Level Diagrams](#422-labeling-systems)
+            - [4.1.3.3 Software Architecture Deployment Diagrams](#422-labeling-systems)
+    - [4.2. Tactical-Level Domain-Driven Design](#41-style-guidelines)
+        - [4.2.1. Bounded Context](#424-searching-systems)
+            - [4.2.1.1 Domain Layer](#425-navigation-systems)
+            - [4.2.1.2 Interface Layer](#425-navigation-systems)
+            - [4.2.1.3 Application Layer](#425-navigation-systems)
+            - [4.2.1.4 Infrastructure Layer](#425-navigation-systems)
+            - [4.2.1.5 Bounded Context Software Architecture Component Level Diagrams](#425-navigation-systems)
+            - [4.2.1.6 Bounded Context Software Architecture Code Level Diagrams](#425-navigation-systems)
+                - [4.2.1.6.1 Bounded Context Domain Layer Class Diagrams](#425-navigation-systems)
+                - [4.2.1.6.1 Bounded Context Database Design Diagram](#425-navigation-systems)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-ui/ux-design)
+    - [5.1. Product design](#41-style-guidelines)
+        - [5.1.1. Style Guidelines](#411-general-style-guidelines)
+            - [5.1.1.1 General Style Guidelines](#412-web-style-guidelines)
+        - [5.1.2 Information Architecture](#42-information-architecture)
+            - [5.1.2.1 Organization Systems](#422-labeling-systems)
+            - [5.1.2.2 Labelling Systems](#422-labeling-systems)
+            - [5.1.2.3 SEO Tags and Meta Tags](#422-labeling-systems)
+            - [5.1.2.4 Searching Systems](#422-labeling-systems)
+            - [5.1.2.5 Navigation Systems](#422-labeling-systems)
+        - [5.1.3. Landing Page UI Design](#424-searching-systems)
+            - [5.1.3.1 Landing Page Wireframe](#425-navigation-systems)
+            - [5.1.3.2 Landing Page Mock-up](#425-navigation-systems)
+        - [5.1.4. Mobile Applications UX/UI Design](#424-searching-systems)
+            - [5.1.4.1 Mobile Applications Wireframes](#425-navigation-systems)
+            - [5.1.4.2 Mobile Applications Wireflow Diagrams](#425-navigation-systems)
+            - [5.1.4.3 Mobile Applications Mock-ups](#425-navigation-systems)
+            - [5.1.4.4 Mobile Applications User Flow Diagrams](#425-navigation-systems)
+            - [5.1.4.5 Mobile Applications Prototyping](#425-navigation-systems)
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-v-ui/ux-design)
+    - [6.1. Software Configuration Management](#41-style-guidelines)
+        - [6.1.1. Software Development Environment Configuration](#411-general-style-guidelines)
+        - [6.1.2 Source Code Management](#42-information-architecture)
+        - [6.1.3. Source Code Style Guide & Conventions](#424-searching-systems)
+        - [6.1.4. Source Code Style Guide & Conventions](#424-searching-systems)
+    - [6.2. Landing Page & Mobile Application Implementation](#41-style-guidelines)
+        - [6.2.1. Sprint 1](#424-searching-systems)
+            - [6.1.2.1 Sprint Planning 1](#425-navigation-systems)
+            - [6.1.2.2 Sprint Backlog 1](#425-navigation-systems)
+            - [6.1.2.3 Development Evidence for Sprint Review](#425-navigation-systems)
+            - [6.1.2.4 Testing Suite Evidence for Sprint Review](#425-navigation-systems)
+            - [6.1.2.5 Execution Evidence for Sprint Review](#425-navigation-systems)
+            - [6.1.2.6 Services Documentation Evidence for Sprint Review](#425-navigation-systems)
+            - [6.1.2.7 Software Deployment Evidence for Sprint Review](#425-navigation-systems)
+            - [6.1.2.8 Team Collaboration Insights during Sprint](#425-navigation-systems)
+        - [6.2.2. Sprint 2](#424-searching-systems)
+            - [6.2.2.1 Sprint Planning 2](#425-navigation-systems)
+            - [6.2.2.2 Sprint Backlog 2](#425-navigation-systems)
+            - [6.2.2.3 Development Evidence for Sprint Review](#425-navigation-systems)
+            - [6.2.2.4 Testing Suite Evidence for Sprint Review](#425-navigation-systems)
+            - [6.2.2.5 Execution Evidence for Sprint Review](#425-navigation-systems)
+            - [6.2.2.6 Services Documentation Evidence for Sprint Review](#425-navigation-systems)
+            - [6.2.2.7 Software Deployment Evidence for Sprint Review](#425-navigation-systems)
+            - [6.2.2.8 Team Collaboration Insights during Sprint](#425-navigation-systems)
+    - [6.3. Validation Interviews](#425-navigation-systems)
+        - [6.3.1. Diseño de Entrevistas](#411-general-style-guidelines)
+        - [6.3.2 Registro de Entrevistas](#42-information-architecture)
+        - [6.3.3. Evaluaciones según heurísticas](#424-searching-systems)
+    - [6.3. Video About-the-Product](#425-navigation-systems)
+- [Conclusiones](#conclusiones)
+    - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
+    - [Video About-the-Team](#video-about-the-team)
+    
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+
+# Student Outcome
+
+| Criterio Específico | Acciones Realizadas | Conclusiones |
+|-----------------|--------------------|---------------------|
+|Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software.|**Cabanillas Gora Andrea Milagros** <br> TB1: Chapter 01 y aportes en los demas capitulos </br> |*** <br>TB1: Chapter 02 y aportes en los demas capitulos </br>**Fabian Reyes Trujillano** <br>TB1: Chapter 04 y aportes en los demas capitulos.<br> TP: Chapter 05 y aportes en los demas capitulos.<br> TB2 Durante el proceso de creación de la aplicación, la actualización constante de conceptos como integración de APIs, control de estado en Flutter y seguridad en el backend fue fundamental para lograr una solución funcional y escalable. </br> **Gabriel Anthony Braithuaite Toledo** <br>TB1: Chapter 04 y aportes en los demas capitulos. TP: Chapter 05 y aportes en los demas capitulos.<br> TB2: La necesidad de implementar buenas prácticas y herramientas actualizadas me motivó a mantenerme informado, lo que impactó positivamente en la calidad del proyecto y en mi preparación para futuros retos profesionales en el campo del software.<br> </br> **Jose Adrian Luza Cahuamaca**<br> TB1:Chapter 04 y aportes en los demas capitulos. TP: Chapter 05 y aportes en los demas capitulos.<br> TB2: Actualizar conocimientos no solo enriqueció mi proceso de desarrollo técnico, sino que también mejoró mi capacidad de toma de decisiones, permitiéndome seleccionar tecnologías adecuadas y aplicar soluciones efectivas en tiempo real. </br>|   El equipo llevó a cabo una amplia gama de actividades para comunicar de manera efectiva las ideas y resultados del proyecto de ingeniería. Esto incluyó la realización de entrevistas, la elaboración de Statements y Hypothesis Statements como parte del proceso Lean UX, la creación de User Personas y el mapeo de la experiencia del usuario. Además, se realizó un análisis competitivo, se desarrollaron User Stories y se establecieron estrategias frente a competidores. Se utilizaron herramientas visuales como Lean UX Canvas y Style Guidelines, y se llevaron a cabo actividades como Empathy Mapping para comprender las necesidades de los usuarios. Todo esto se complementó con la creación de Landing Page y el diseño de interfaces de usuario para transmitir la propuesta de valor del proyecto de manera efectiva.<br>  Actualizar nuestros conocimientos técnicos como equipo nos permitió aplicar soluciones más eficientes en el desarrollo de la aplicación móvil, incorporando herramientas modernas como Flutter, Firebase y principios de arquitectura limpia, lo que fortaleció tanto la calidad del proyecto como nuestras competencias profesionales. |
+|Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software.|**Cabanillas Gora Andrea Milagros*** <br> TB1: Chapter 01 y aportes en los demas capitulos.<br>.  </br>**s** <br>TB1: Chapter 04 y aportes en los demas capitulos. </br> **Jose Adrian Luza Cahuamaca**<br> TB1:Chapter 04 y aportes en los demas capitulos. TP: Chapter 05 y aportes en los demas capitulos. </br> TB2 La actualización constante de conocimientos facilita el desarrollo de aplicaciones móviles más eficientes, seguras y escalables, tanto en la capa visual (Flutter) como en la lógica de servidor (back end).|    El equipo llevó a cabo una amplia gama de actividades para comunicar de manera efectiva las ideas y resultados del proyecto de ingeniería. Tras la realizacion de todos los capitulos del informe se pudo lograr y complementar para la creación de Landing Page y el diseño de interfaces de usuario para transmitir la propuesta de valor del proyecto de manera efectiva.  |  El equipo llevó a cabo una amplia gama de actividades para comunicar de manera efectiva las ideas y resultados del proyecto de ingeniería. Esto incluyó la realización de entrevistas, la elaboración de Statements y Hypothesis Statements como parte del proceso Lean UX, la creación de User Personas y el mapeo de la experiencia del usuario. Además, se realizó un análisis competitivo, se desarrollaron User Stories y se establecieron estrategias frente a competidores. Se utilizaron herramientas visuales como Lean UX Canvas y Style Guidelines, y se llevaron a cabo actividades como Empathy Mapping para comprender las necesidades de los usuarios. Todo esto se complementó con la creación de Landing Page y el diseño de interfaces de usuario para transmitir la propuesta de valor del proyecto de manera efectiva <br> Como equipo, reconocimos que el aprendizaje continuo no solo es una actitud deseable, sino una necesidad fundamental en el desarrollo de soluciones móviles integradas. Esta mentalidad nos permitió adaptarnos a las exigencias técnicas del proyecto, incorporar nuevas tecnologías de manera efectiva y mejorar nuestra capacidad de respuesta frente a los cambios del entorno digital. Fortalecimos así no solo el resultado del proyecto, sino también nuestras competencias profesionales en un mercado que exige actualización constante.<br> |
+|Objetivos SMART|**Augusto Mathias Leonardo Vasquez Requejo** <br> **Objetivo 1:** Desarrollar experiencia profesional trabajando en al menos dos proyectos de software para empresas logísticas en los primeros 12 meses después de graduarme, con el objetivo de profundizar mis conocimientos en integración de APIs, manejo de bases de datos y arquitectura de sistemas escalables.<br> **Objetivo 2:** <br> Obtener una certificación en arquitectura de software o DevOps (como AWS Certified Developer o Google Cloud Professional) antes de julio de 2026, para ampliar mis oportunidades laborales y postular a posiciones senior en empresas tecnológicas del sector logístico. </br> **Joaquin Andree Pedraza Maldonado** <br> **Objetivo 1:** Completar una especialización en gestión de productos digitales o UX Strategy (como un diplomado o curso certificado en Product Management) durante el primer año después de egresar, para liderar equipos de desarrollo con enfoque en soluciones logísticas centradas en el usuario. <br> **Objetivo 2:**<br> Liderar al menos un proyecto de implementación de software en una empresa del sector logístico en los siguientes 18 meses tras la graduación, para adquirir experiencia práctica que me permita postular a roles de PM en startups tecnológicas. </br>**Fabian Reyes Trujillano** <br>**Objetivo 1:** Dominar al menos dos frameworks de frontend modernos (React y Vue) con certificaciones y proyectos reales dentro de los primeros 9 meses después de culminar la carrera, para ampliar mi empleabilidad en empresas tecnológicas.<br> **Objetivo 2:** <br>Construir un portafolio profesional público en línea con al menos 3 proyectos interactivos orientados a logística o visualización de datos, antes de abril de 2026, para presentarlo en entrevistas o ferias laborales. </br> **Gabriel Anthony Braithuaite Toledo** <br> **Objetivo 1:** Obtener una certificación en automatización de pruebas (como ISTQB o Selenium Advanced) dentro del primer año de egresado, para especializarme en control de calidad en entornos de logística y transporte. <br> **Objetivo 2:** <br> Participar en al menos dos proyectos reales como QA Automation Engineer en empresas tecnológicas o startups logísticas durante los primeros 15 meses tras la graduación, enfocándome en mejorar la cobertura y eficiencia del testing. </br> **Jose Adrian Luza Cahuamaca**<br> **Objetivo 1:** Cursar una especialización o bootcamp en UX Research y accesibilidad digital en los próximos 10 meses después de graduarme, para fortalecer mi perfil como diseñadora centrada en usabilidad dentro de entornos logísticos complejos. <br> **Objetivo 2:** <br> Diseñar y testear al menos 3 interfaces de usuario para software logístico en proyectos reales o freelance, antes de julio de 2026, priorizando la experiencia del usuario en escenarios críticos como seguimiento de envíos o trazabilidad. </br> |  En esta seccion hemos expresado los objetivos que tiene cada uno de los integrantes del grupo una vez terminada su carrera.|
 
 Conclusiones
 Conclusiones y recomendaciones.
